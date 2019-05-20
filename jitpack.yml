@@ -1,3 +1,3 @@
 install:
   - echo "Building spark meta store relevant package ql"
-  - mvn clean install -pl ql -am -rf ql -DskipTests -Phadoop-2
+  - mvnw clean install -U -pl ql -am -rf ql -DskipTests -Phadoop-2
